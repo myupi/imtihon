@@ -13,6 +13,7 @@ let closeBtn = document.querySelector("#closeBtn");
 let form = document.querySelector("form");
 
 if (!token) {
+  window.location.replace("../login.html");
 }
 
 logOut.addEventListener("click", () => {
