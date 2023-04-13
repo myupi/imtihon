@@ -1,0 +1,281 @@
+body {
+  background-color: #F3F4FF;
+  font-family: "Poppins", sans-serif;
+}
+
+nav h2 {
+  color: #303972;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+nav .right .img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+nav .right .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+nav .right .img::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-color: #4D44B5;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+}
+nav .right button {
+  padding: 10px 5px;
+  background-color: #4D44B5;
+  height: 50px;
+  border: 3px solid #4D44B5;
+  color: white;
+  transition: 0.3s linear;
+  border-radius: 20px;
+}
+nav .right button:hover {
+  background-color: white;
+  color: #4D44B5;
+}
+nav .right h6 {
+  margin-top: 17.5px !important;
+  text-align: center;
+}
+
+aside {
+  width: 275px;
+  padding-top: 27.5px;
+  padding-left: 25px;
+  background-color: #4D44B5;
+}
+aside .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+aside .logo .left {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB7D5B;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+}
+aside .logo .right {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+aside ul li {
+  padding: 10px 15px;
+  color: #F3F4FF;
+}
+aside ul li img {
+  width: 30px;
+  height: 37.5px;
+}
+aside ul li:nth-child(2) {
+  background-color: #F3F4FF;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  color: #4D44B5;
+  font-weight: 500;
+}
+
+section#formSection .container .form {
+  width: 300px;
+}
+section#formSection .container .form i {
+  color: #4d44b5;
+  left: 10px;
+}
+section#formSection .container .form input {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  border: 0;
+  border-radius: 25px;
+  padding-left: 30px;
+}
+section#formSection .container .buttons .newest {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4d44b5;
+  border: 2px solid #4d44b5;
+  border-radius: 25px;
+  transition: 0.3s linear;
+}
+section#formSection .container .buttons .newest:hover {
+  background-color: #4d44b5;
+  color: white;
+}
+section#formSection .container .buttons button {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #4d44b5;
+  border: 2px solid #4d44b5;
+  border-radius: 25px;
+  transition: 0.3s linear;
+}
+section#formSection .container .buttons button:hover {
+  background-color: white;
+  color: #4d44b5;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+section#userShow table {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+}
+section#userShow table thead th,
+section#userShow table thead td {
+  color: #303972;
+  height: 50px;
+  text-align: center;
+  padding: 30px;
+}
+section#userShow table tbody th,
+section#userShow table tbody td {
+  color: #303972;
+  height: 50px;
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+section#userShow table tbody td .telmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+section#userShow table tbody td i {
+  margin-top: -7.5px;
+  width: 40px;
+  height: 40px;
+  background-color: #C1BBEB;
+  margin-right: 5px;
+  padding-top: 12.5px;
+  border-radius: 50%;
+}
+section#userShow table tbody td i:hover {
+  opacity: 0.75;
+}
+section#userShow table tbody td i:active {
+  opacity: 0.5;
+}
+section#userShow table tbody td p {
+  background-color: #FB7D5B;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 2px;
+}
+section#userShow .bottom {
+  transform: translateX(48px);
+  background-color: white;
+  height: 115px;
+  padding: 30px 50px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: #303972;
+}
+section#userShow .bottom p {
+  font-size: 12.5px;
+}
+section#userShow .bottom ul {
+  list-style-type: none;
+}
+section#userShow .bottom ul .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #303972;
+  color: #303972;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+section#userShow .bottom ul .circle:nth-child(2) {
+  background-color: #303972;
+  color: white;
+}
+
+input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+  background-color: #4d44b5;
+  border-color: #4d44b5;
+}
+
+a {
+  color: inherit;
+}
+
+section#login {
+  height: 100vh;
+}
+section#login .container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#post {
+  background-color: #4D44B5;
+  transition: 0.5s linear;
+  transform: translateX(100%);
+}
+section#post form button {
+  background-color: #F3F4FF;
+  color: #4D44B5;
+  transition: 0.3s linear;
+}
+section#post form button:hover {
+  opacity: 0.8;
+}
+section#post form button:active {
+  opacity: 0.6;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

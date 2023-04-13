@@ -1,0 +1,27 @@
+section#post{
+  background-color: #4D44B5;
+  transition: 0.5s linear;
+  transform: translateX(100%);
+  form{
+    button{
+      background-color: #F3F4FF;
+      color: #4D44B5;
+      transition: 0.3s linear;
+      &:hover{
+        opacity: 0.8;
+      }
+      &:active{
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
