@@ -87,6 +87,12 @@ async function GetUser() {
     });
 
     tableBody.append(tr);
+    name.value = "";
+    username.value = "";
+    email.value = "";
+    zipcode.value = "";
+    city.value = "";
+    phone.value = "";
 
     postSection.style.transform = "translateX(100%)";
   });
